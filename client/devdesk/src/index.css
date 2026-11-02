@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background: #f5f7fb;
+  color: #172033;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+li {
+  margin-bottom: 12px;
+}
+select {
+  padding: 6px 10px;
+  font: inherit;
+}
+form input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 8px 0 16px;
+}
+
+form label {
+  display: block;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
